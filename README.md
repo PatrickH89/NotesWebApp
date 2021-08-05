@@ -15,18 +15,20 @@
 
 ## Technologies
 * ASP.NET CORE - version 3.1
-* MVC design pattern
+* design pattern: MVC 
+* Entity Framework Core - version 5.0.8
+* MS SQL Server database
+* HTML5 
 
 To-do list:
-* Entity Framework Core - version XXX
-* SQL Database
 * Bootstrap 4
-* HTML5 
 * CSS3
 
+
 ## Setup
-Just download the project und let it run in Visual Studio. 
-The notes web app will be startet and a sql db will be created so you can start writing your first note.
+* still under construction and not working! I will write it in here, if its downloadable for usage
+Just download the project und let it run in Visual Studio Community. 
+The notes web app will be started and a sql db will be created thus you can start writing your first note.
 
 Later on I will explain how to use the notes web app with MS SQL Server as a live web app on your windows desktop.
 
