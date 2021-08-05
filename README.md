@@ -1,49 +1,42 @@
-# Project Name
-> Here goes your awesome project description!
+# Notes Web App
+> Here I coded my first notes web application for learning ASP.NET Core MVC.
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
+> Here I coded my first notes web application for learning ASP.NET Core MVC.
+> It contains all CRUD operations to create, read, update  and delete a note.
+> For more detailed information about the used technologies, read Technologies
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
-
-## Setup
-Describe how to install / setup your local environement / add link to demo version.
-
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
-
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* ASP.NET CORE - version 3.1
+* MVC design pattern
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Entity Framework Core - version XXX
+* SQL Database
+* Bootstrap 4
+* HTML5 
+* CSS3
+
+## Setup
+Just download the project und let it run in Visual Studio. 
+The notes web app will be startet and a sql db will be created so you can start writing your first note.
+
+Later on I will explain how to use the notes web app with MS SQL Server as a live web app on your windows desktop.
+
+## Features
+To-do list:
+* Display all notes
+* Display one note by Id
+* Create a note
+* Update a note by Id
+* Delete a note by Id
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Project is: _in progress_
