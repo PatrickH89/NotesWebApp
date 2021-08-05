@@ -1,15 +1,31 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NotesWebApp.Models;
 
 namespace NotesWebApp
 {
     public class Startup
     {
+        private readonly IConfiguration configuration;
+        public Startup(IConfiguration configuration)
+        {
+            this.configuration = configuration;
+        }
+
         // add services
         public void ConfigureServices(IServiceCollection services)
         {
+            // sql db registration
+            services.AddDbContext<NotesDataContext>(options =>
+            {
+                var connectionString = configuration.GetConnectionString("NotesDataContext");
+                options.UseSqlServer(connectionString);
+            });
+
             services.AddControllersWithViews();
         }
 

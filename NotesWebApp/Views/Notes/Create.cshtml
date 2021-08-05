@@ -1,0 +1,16 @@
+﻿@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@model NotesWebApp.Models.Note
+
+<form asp-action="Create" asp-controller="Notes">
+    <p>
+        <label asp-for="Subject">Subject:</label>
+        <input asp-for="Subject" placehilder="Subject" />
+    </p>
+    <p>
+        <label asp-for="Notice">Notice:</label>
+        <textarea asp-for="Notice" placeholder="Notice"></textarea>
+    </p>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+</form>

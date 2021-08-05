@@ -11,6 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
+      "launchUrl": "notes",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -18,6 +19,7 @@
     "NotesWebApp": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "notes",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
