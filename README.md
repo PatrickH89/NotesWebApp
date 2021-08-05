@@ -27,6 +27,7 @@ To-do list:
 
 ## Setup
 * still under construction and not working! I will write it in here, if its downloadable for usage
+
 Just download the project und let it run in Visual Studio Community. 
 The notes web app will be started and a sql db will be created thus you can start writing your first note.
 
