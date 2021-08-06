@@ -19,6 +19,9 @@ namespace NotesWebApp
         // add services
         public void ConfigureServices(IServiceCollection services)
         {
+            // formating Service registration
+            services.AddTransient<FormattingService>();
+
             // sql db registration
             services.AddDbContext<NotesDataContext>(options =>
             {

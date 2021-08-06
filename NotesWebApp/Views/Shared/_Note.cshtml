@@ -1,4 +1,5 @@
-﻿@model NotesWebApp.Models.Note
+﻿@inject NotesWebApp.Models.FormattingService Format
+@model NotesWebApp.Models.Note
 
 <div class="card mb-2">
     <div class="card-body">
@@ -7,6 +8,7 @@
                 new { id = Model.Id }
             )
         </h5>
+        <h6 class="card-subtitle mb-2 text-muted">@Format.AsReadableDate(Model.Posted)</h6>
         <p class="card-text">@Model.Notice</p>
 
         <div class="btn-group">
@@ -16,6 +18,11 @@
                 <input type="hidden" name="id" value="@Model.Id" />
                 <button type="submit" class="btn btn-dark ml-1 rounded">Delete</button>
             </form>
+
+            @if (ViewContext.RouteData.Values["action"].ToString().ToLower() == "note")
+            {
+                <a href="/notes" class="btn btn-dark ml-1 rounded">Back</a>
+            }
         </div>
     </div>
 </div>
