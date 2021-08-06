@@ -1,5 +1,21 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model NotesWebApp.Models.Note
+
+<div class="card mb-2">
+    <div class="card-body">
+        <h5 class="card-title">
+            @Html.ActionLink(Model.Subject, "Note", "Notes",
+                new { id = Model.Id }
+            )
+        </h5>
+        <p class="card-text">@Model.Notice</p>
+
+        <div class="btn-group">
+            <a href="/notes/update?id=@Model.Id" class="btn btn-dark rounded">Update</a>
+
+            <form asp-controller="Notes" asp-action="Delete">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button type="submit" class="btn btn-dark ml-1 rounded">Delete</button>
+            </form>
+        </div>
+    </div>
+</div>
