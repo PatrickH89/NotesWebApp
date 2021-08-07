@@ -26,6 +26,8 @@ namespace NotesWebApp.Controllers
             if (_db.Notices.Any<Note>())
             {
                 Note[] notes = _db.Notices.ToArray();
+                Array.Sort(notes, new NoteComparer());
+                Array.Reverse(notes);
                 return View(notes);
             }
             return View();

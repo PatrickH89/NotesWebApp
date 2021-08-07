@@ -6,7 +6,7 @@ namespace NotesWebApp.Models
     {
         public string AsReadableDate(DateTime date)
         {
-            return date.ToString("D");
+            return date.ToString("U");
         }
     }
 }

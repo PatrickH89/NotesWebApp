@@ -4,9 +4,12 @@
 }
 
 <div>
+    <a style="margin-bottom: 15px; float: right;" href="/notes/create" class="btn btn-success rounded"><strong>New Note</strong></a>
+</div>
+<div style="clear: both;">
+
     @foreach (var note in Model)
     {
         @await Html.PartialAsync("_Note", note)
     }
-    <a style="float: right;" href="/notes/create" class="btn btn-primary rounded-circle"><strong>+</strong></a>
 </div>
