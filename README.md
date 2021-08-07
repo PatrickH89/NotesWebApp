@@ -5,10 +5,26 @@
 > It contains all CRUD operations to create, read, update  and delete a note.
 
 ## Screenshots
-<img title="Display all Notes" src="./NotesWebApp/wwwroot/images/01_Display_all_Notes.png" alt="Display all Notes" width="45%" height="45%" >
-<img title="Display one Note" src="./NotesWebApp/wwwroot/images/02_Display_One_Note.png" alt="Display one Note" width="45%" height="45%" >
-<img title="Update a Note" src="./NotesWebApp/wwwroot/images/03_Update_a_Note.png" alt="Update a Note" width="45%" height="45%" >
-<img title="Create a Note" src="./NotesWebApp/wwwroot/images/04_Create_a_Note.png" alt="Create a Note" width="45%" height="45%" >
+<figure>
+	<figcaption><strong>Display all Notes</strong></figcaption>
+	<img title="Display all Notes" src="./NotesWebApp/wwwroot/images/01_Display_all_Notes.png" alt="Display all Notes" width="100%" height="100%" >
+</figure>
+
+<figure>
+	<figcaption><strong>Display one Note</strong></figcaption>
+	<img title="Display one Note" src="./NotesWebApp/wwwroot/images/02_Display_One_Note.png" alt="Display one Note" width="100%" height="100%" >
+</figure>
+
+<figure>
+	<figcaption><strong>Update a Note</strong></figcaption>
+	<img title="Update a Note" src="./NotesWebApp/wwwroot/images/03_Update_a_Note.png" alt="Update a Note" width="100%" height="100%" >
+</figure>
+
+<figure>
+	<figcaption><strong>Create a Note</strong></figcaption>
+	<img title="Create a Note" src="./NotesWebApp/wwwroot/images/04_Create_a_Note.png" alt="Create a Note" width="100%" height="100%" >
+</figure>
+
 
 ## Technologies
 * ASP.NET Core - version 3.1
