@@ -30,7 +30,7 @@ namespace NotesWebApp.Controllers
                 Array.Reverse(notes);
                 return View(notes);
             }
-            return View();
+            return RedirectToAction("Index", "Home");
         }
 
         /* get one note by id
