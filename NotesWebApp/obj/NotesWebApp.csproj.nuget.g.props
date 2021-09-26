@@ -17,6 +17,5 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Admin\.nuget\packages\newtonsoft.json\10.0.1</PkgNewtonsoft_Json>
-    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\Admin\.nuget\packages\jquery\1.8.0</PkgjQuery>
   </PropertyGroup>
 </Project>

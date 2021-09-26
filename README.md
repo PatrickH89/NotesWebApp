@@ -1,8 +1,8 @@
 # NotesWebApp
 
 ## General info
-> Here I coded my first notes web application for learning ASP.NET Core MVC.
-> It contains all CRUD operations to create, read, update  and delete a note.
+Here I coded my first notes web application for learning ASP.NET Core MVC.  
+It contains all CRUD operations to create, read, update and delete a note.
 
 ## Screenshots
 <figure>
@@ -30,7 +30,7 @@
 * ASP.NET Core - version 3.1
 * design pattern: MVC 
 * Entity Framework Core - version 5.0.8
-* MS SQL Server database
+* IIS + MS SQL Server
 * Bootstrap 4 - responsive design
 * HTML5
 * CSS3 
@@ -46,12 +46,5 @@ The notes web app will be started and a sql db will be created thus you can star
 * Update a note by Id
 * Delete a note by Id
 
-To-do list:
-* unobtrusive jquery
-* error page handling
-* finish model validation and 
-* validation attributes
-* Error Messages
-
 ## Status
-Project is: _almost finished_
+Project is: _finished_
